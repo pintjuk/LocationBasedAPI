@@ -1,0 +1,5 @@
+* Code related to setting up communication channels goes here, and only here
+* Under no substances add application logic to this code. Just map Requests to method calls in application-services.
+* Do not reference import this code into data, aplication or domain code, only main file.
+
+If we do not break this rules this then it will always be simple to swap HTTP implementations, or add support of aditional protocols

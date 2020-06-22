@@ -1,0 +1,9 @@
+Implementations or repositories go here.
+Never import this code into domain and application services, use dependency injection instead so that the data storage
+implementations can be swapped.
+Dont put application logic here, Remember that repositories can not contain application logic, only CRUD+Quary methods
+
+For the first iteration of the API i use in memory mocks of the repositories to focus on teh code and avoid waisting
+time on database setup, this mocks will also be useful in unit testing.
+
+
